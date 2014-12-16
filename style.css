@@ -1,0 +1,32 @@
+#map {
+	width: 70%;
+	height: 75%;
+	left: 300px;
+	position:absolute;
+	border: 5px solid #13472e;
+	border-radius: 10px;
+}
+.button {
+	border: 2px solid #CCCCCC;
+	border-radius: 5px;
+	color: #D1D1D1;
+	display: block;
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	width:250px;
+	background:#13472e;
+	font-weight:bold;
+	
+}
+
+h2 {
+	color:#ddeee6;
+	font-family: Calibri;
+	font-size: 60px;
+	left: 25px;
+	position: relative;
+	text-shadow: 5px 5px #13472e;
+	width: 800px;
+}

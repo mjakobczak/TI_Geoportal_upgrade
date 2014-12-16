@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<script  type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<link rel= "stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body background="background.jpg">
+
+		<h2> KOMUNIKACJA WROCŁAW</h2>
+		<div id="map"></div>
+		<div class="button" onclick="wypadek=true">
+			Dodaj wypadek
+		</div>
+		<div class="button" onclick="korek=true">
+			Dodaj korek
+		</div>
+		<div class="button" onclick="patrol=true">
+			Dodaj patrol
+		</div>
+		<div class="button" onclick="isInAddMarkerMode=true">
+			Dodaj inne zdarzenie
+		</div>
+		<div class="button" onclick="removeOneMarker()">
+			Usuń zdarzenie
+		</div>
+		<div class="button" onclick="removeMarker()">
+			Usuń wszystkie zdarzenia
+		</div>
+		<div class="button" onclick="isInAddAnnotationMode=true">
+			Dodaj adnotację
+		</div>
+		<div class="button" onclick="removeAnnotation()">
+			Usuń wszystkie adnotacje
+		</div>
+		<div class="button" onclick="measureDistance()" >
+			Zmierz odległość
+		</div>
+			
+		<div class="button" onclick="addWMS()">
+		Ortofotomapa
+		</div>
+		<div class="button" onclick="removeWMS()" >
+			Wyłącz ortofotomapę
+		</div>
+		<div class="button" onclick="revertRange()">
+			Przywróć zasięg
+		</div>
+		<div class="button" onclick="gdzieJestem()">
+			Gdzie jestem?
+		</div>
+	</body>
+</html>
+
